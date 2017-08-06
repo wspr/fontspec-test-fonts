@@ -1,8 +1,8 @@
 #!/bin/bash
 
-texmf=`kpsewhich --var-value TEXMFHOME`
+MYPATH=`dirname $0`
 fontpath=$texmf/fonts/opentype/fontspec/
 
 mkdir -p $fontpath
-cp -nv */*.otf $HOMETEXMF $fontpath
-cp -nv */*.TTF $HOMETEXMF $fontpath
+cp -nv $MYPATH/*/*.otf $HOMETEXMF $fontpath
+cp -nv $MYPATH/*/*.TTF $HOMETEXMF $fontpath
