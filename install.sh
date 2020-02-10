@@ -8,3 +8,4 @@ mkdir -p $fontpath
 cp -nv $MYPATH/*/*.otf $HOMETEXMF $fontpath
 cp -nv $MYPATH/*/*.ttf $HOMETEXMF $fontpath
 cp -nv $MYPATH/*/*.TTF $HOMETEXMF $fontpath
+cp -nv $MYPATH/*/*.ttc $HOMETEXMF $fontpath
